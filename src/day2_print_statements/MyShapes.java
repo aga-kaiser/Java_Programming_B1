@@ -7,5 +7,6 @@ public class MyShapes {
         System.out.println("  *");
         System.out.println(" ***");
         System.out.println("*****");
+
     }
 }

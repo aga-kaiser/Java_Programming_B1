@@ -24,12 +24,23 @@ public class CellPhone {
         char sim = 'A';
 
         // I have an [IPhone 10] from [apple]
-        System.out.println("I have an" + model + " from" + brand);
+        System.out.println("I have an " + model + " from " + brand);
 
         // It came in tje color [black and it has [128] GB
-        System.out.println("It came in the color" + color + " and it has" + storage + "GB");
+        System.out.println("It came in the color " + color + " and it has " + storage + " GB");
 
-        // For the sim type [A] with a camera [hasCamera the total price was $
+        // For the sim type [A] with a camera [hasCamera the total price was $ [price]
+        System.out.println("For the sim type " + sim + " with a camera " + hasCamera + " the total price was $" + price);
+
+
+        System.out.println();
+
+        String fullMessage = "I have an " + model + " from " + brand + "\nIt came in color " + color + " and it has "
+                + storage + " GB "  +    "\nFor the sim type " + sim + " with a camera " + hasCamera + " the total price was $" + price;
+
+        System.out.println(fullMessage);
+
+
 
 
 

@@ -14,6 +14,5 @@ public class EscapeSequence2 {
 
         System.out.println("\"iphone\", \"laptop\", \"xbox\", \"webcam\", \"monitor\"");
 
-
     }
 }

@@ -39,13 +39,6 @@ public class Angles {
         System.out.println("It is either triangle or circle: " + (total == 180 || total == 360));
 
 
-
-
-
-
-
-
-
     }
 
 }

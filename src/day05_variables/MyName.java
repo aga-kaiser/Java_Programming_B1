@@ -6,10 +6,6 @@ public class MyName {
     create a class MyName
 
 
-
-
-
-
      */
 
 

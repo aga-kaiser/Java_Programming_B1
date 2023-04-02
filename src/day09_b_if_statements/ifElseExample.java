@@ -1,4 +1,4 @@
-package day09_b__if_statements;
+package day09_b_if_statements;
 
 public class ifElseExample {
 
@@ -9,9 +9,9 @@ public class ifElseExample {
 
         // 65 and higher passing
         if (result>=passRate){
-            System.out.println("Pass java quiz. Feyruz is happy. ");
+            System.out.println("Passed java quiz. Feyruz is happy. ");
         }else{
-            System.out.println("Feyruz is craying ");
+            System.out.println("Feyruz is crying ");
         }
 
     }

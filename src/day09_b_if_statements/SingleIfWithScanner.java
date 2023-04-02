@@ -1,4 +1,4 @@
-package day09_b__if_statements;
+package day09_b_if_statements;
 
 import java.util.Scanner;
 public class SingleIfWithScanner {
@@ -25,16 +25,12 @@ public class SingleIfWithScanner {
         }
 
 
-        // Here if the if condtoion is TRUE, the else part is skipped
+        // Here if the  condition is TRUE, the else part is skipped
         if (answer2) {
             System.out.println("Feyruz is really happy");
         }else {
             System.out.println("Turn your camera on it time to be grilled");
         }
-
-
-
-
 
 
 

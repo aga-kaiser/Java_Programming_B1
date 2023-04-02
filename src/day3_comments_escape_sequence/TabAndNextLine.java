@@ -25,7 +25,7 @@ public class TabAndNextLine {
         System.out.println("3) Start the car");
 
 
-        System.out.println("\n1");
+        System.out.println("\n1) Go to parking lot\\n2) Find the car\\n3) Start the car");
 
 
 

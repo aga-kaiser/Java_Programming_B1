@@ -18,7 +18,7 @@ public class FloatingNumbers {
         price = average;
 
         //price = average;
-        //average =
+        //average = price;
 
 
 

@@ -16,43 +16,47 @@ public class Discount {
      */
     public static void main(String[] args) {
 
-        boolean isWeekend = true;
-        boolean isTeacher = false;
-        boolean isPoliceOfficer = false;
-        boolean isFireFighter = false;
+        boolean isWeekend = true,
+                isTeacher = false,
+                isPoliceOfficer = false,
+                isFireFighter = true;
 
         boolean getsDiscount;
 
         getsDiscount = isWeekend && (isTeacher || isPoliceOfficer || isFireFighter);
+        //                              false  ||   false
+        //                                      false            ||   false
+        //                                                  false
+        //                    true       &&        false
+        //                              false
+
+
+
+
         System.out.println(getsDiscount);
 
         System.out.println();
 
-        getsDiscount = isWeekend && (isTeacher || isPoliceOfficer || isFireFighter);
-        //                              false  ||  false
-        //                                     false              ||  false
-        //
-        //
-        //
-
-
-
-
-
-
         getsDiscount = isWeekend && isTeacher || isPoliceOfficer || isFireFighter;
-        //                  true &&   false   ||
-        //                         false       ||    false
-        //                                    false
-        //                     false && false
-
-
+        //                  true &&  false
+        //                      false         ||    fasle
+        //                                  false               ||   fasel
+        //                                              false
         System.out.println(getsDiscount);
 
+        System.out.println();
 
 
+        int a = 5;
+        System.out.println(false && a++ > 3);
+        System.out.println(a);
 
-
-
+        System.out.println(true && (a++ > 3));
+        System.out.println(a);
     }
+
+
+
+
+
 }

@@ -26,7 +26,11 @@ public class CharExamples {
         System.out.println();
         System.out.println(" <--- String --->" + letterOne + letterTwo + " <--- String ---> " + letterOne + letterTwo);
 
-        //char letterThree = 65;
+        char letterThree = 65;
+        System.out.println(letterThree);
+
+        //char letterFour = '65';  -->  this is invalid because there are two characters.
+
 
 
 

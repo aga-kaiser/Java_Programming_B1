@@ -1,4 +1,4 @@
-package day09_b__if_statements;
+package day09_b_if_statements;
 
 import java.util.Scanner;
 public class CheckHunger {
@@ -15,13 +15,13 @@ public class CheckHunger {
         //Create a Scanner Object
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Ruslan, are you hungry (true or false): ");
+        System.out.print("Are you hungry (true or false): ");
         boolean isHungry = input.nextBoolean();
 
         if (isHungry) {
-            System.out.println("Lets go to Texas DeBrazil");
+            System.out.println("You are hungry, so I will get some food for you");
         } else {
-            System.out.println("I can not stay without eating anything. Give me some DOLMA");
+            System.out.println("Great, then practice java");
         }
 
 

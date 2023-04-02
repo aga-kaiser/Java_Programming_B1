@@ -11,11 +11,20 @@ public class ScannerIntro {
         System.out.println("\n\n");
 
 
-        System.out.println("Enter a number: ");
+//        System.out.println("Enter a number: ");
         Scanner input = new Scanner(System.in);
-        int number = input.nextInt();
+//        int number = input.nextInt();
+//
+//        System.out.println("You have entered: " + number);
 
-        System.out.println("You have entered: " + number);
+
+        System.out.println();
+        System.out.println("Enter you age: ");
+        int age = input.nextInt();
+
+        System.out.println("After  25 years you will be " + (age + 25) + " old.");
+
+        String lastName;
 
 
 

@@ -19,13 +19,14 @@ public class School {
 */
     public static void main ( String [] args) {
 
-        int numberOfStudentsInGrade1 = 9;
-        int numberOfStudentsInGrade2 = 8;
-        int numberOfStudentsInGrade3 = 7;
-        int numberOfStudentsInGrade4 = 6;
-        int numberOfStudentsInGrade5 = 5;
+        int numberOfStudentsInGrade1 = 40;
+        int numberOfStudentsInGrade2 = 30;
+        int numberOfStudentsInGrade3 = 35;
+        int numberOfStudentsInGrade4 = 50;
+        int numberOfStudentsInGrade5 = 44;
 
-        int numbersOfDaysInYear;
+        int totalNumberOfStudents = numberOfStudentsInGrade1 + numberOfStudentsInGrade2 + numberOfStudentsInGrade3 +
+                numberOfStudentsInGrade4 + numberOfStudentsInGrade5;
 
 
         double numberOfDaysInYear = 100.5;
@@ -37,6 +38,16 @@ public class School {
         System.out.println("Number of students in Grade 1 = " + numberOfStudentsInGrade3 );
         System.out.println("Number of students in Grade 1 = " + numberOfStudentsInGrade4 );
         System.out.println("Number of students in Grade 1 = " + numberOfStudentsInGrade5 );
+
+        System.out.println();
+
+        System.out.println("Total number of Students: " + totalNumberOfStudents);
+
+        System.out.println();
+
+        System.out.println("Number of Days in year: " + numberOfDaysInYear);
+        System.out.println("Number of snow days: " + numberOfSnowDays);
+        System.out.println("Average GPA in school: " + averageGpaInSchool);
 
 
 

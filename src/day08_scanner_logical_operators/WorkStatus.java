@@ -17,12 +17,26 @@ public class WorkStatus {
         System.out.print("Enter your first name: ");
         String firstName = input.next();
 
-        System.out.println("Enter your last name: ");
-        String lastName = input.next();
+        System.out.print("Enter your last name: ");
+        String lastname = input.next();
 
-        System.out.println("First name:\t" + firstName + "\nLast name:\t" + lastName);
+        System.out.print("How are you? ");
+        String feeling = input.next();
 
-        System.out.println("First name:\t" + firstName);
+        System.out.print("What is the best team? ");
+        String team = input.next();
+
+        input.nextLine();
+        System.out.print("How much are you making? ");
+        String answerSalary = input.nextLine();
+
+
+        System.out.println("\nFirst name:\t\t" + firstName + "\nLast name:\t" + lastname);
+        System.out.println("How are you:\t" + feeling);
+        System.out.println("Best team ever:\t" + team);
+        System.out.println("How much are you making?\t" + answerSalary);
+
+
 
 
     }

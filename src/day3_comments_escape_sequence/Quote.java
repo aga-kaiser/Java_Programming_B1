@@ -17,6 +17,13 @@ public class Quote {
         // To print out two backslash
         System.out.println("\\\\");
 
+        // Can you print ' for me?
+        System.out.println("\'");
+
+
+        System.out.println("/");
+
+
 
 
 

@@ -10,6 +10,7 @@ public class OrOperator {
         System.out.println(apples > 1 || oranges < 5);  // true  || false ----> true
         System.out.println(apples > 10 || oranges == 10); // false || true ----> true
 
+
     }
 
 

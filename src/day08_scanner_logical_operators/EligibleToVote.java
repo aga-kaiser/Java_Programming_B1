@@ -24,7 +24,7 @@ public class EligibleToVote {
 
         String name = "Tom";
         boolean isCitizen = true;
-        boolean hasCriminalBackground = true;
+        boolean hasCriminalBackground = false;
         int age = 49;
 
         boolean isEligible;
@@ -36,6 +36,13 @@ public class EligibleToVote {
         System.out.println(name + " is eligible to vote " + isEligible);
 
         isEligible = age >= 18 && isCitizen && hasCriminalBackground;
+
+        System.out.println(name + " is eligible to vote " + isEligible);
+
+
+
+
+
 
 
 

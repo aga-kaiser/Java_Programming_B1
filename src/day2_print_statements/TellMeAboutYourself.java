@@ -6,12 +6,8 @@ public class TellMeAboutYourself {
 
         System.out.println("Agnieszka");
         System.out.println("I'm from Poland");
-        System.out.println("Cats");
-        System.out.println("Soccer");
-
-
-
-
+        System.out.println("I have 2 Cats");
+        System.out.println("My favorite sport is handball");
 
 
     }

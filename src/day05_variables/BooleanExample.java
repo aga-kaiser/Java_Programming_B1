@@ -11,5 +11,13 @@ public class BooleanExample {
         System.out.println("He is tired");
         System.out.println("He is hungry");
 
+        isTired = false;
+        isHungry = true;
+
+        System.out.println();
+        System.out.println("He is tired: " + isTired);
+        System.out.println("He is hungry: " + isHungry);
+
+
     }
 }
