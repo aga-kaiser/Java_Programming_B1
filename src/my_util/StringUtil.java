@@ -1,11 +1,10 @@
-package day24_office_hours;
+package my_util;
 
-/*
- This method made by Loopcamp Batch#1
- The method accepts a String and returns the reversed String
- */
 public class StringUtil {
-
+    /**
+     This method made by Loopcamp Batch#1
+     The method accepts a String and returns the reversed String
+     */
     public static String reverseStr (String str) {
 
         String reversed = "";

@@ -1,4 +1,4 @@
-package day24_office_hours;
+package my_util;
 
 public class UsingStringUtil {
 
@@ -8,5 +8,6 @@ public class UsingStringUtil {
         System.out.println(StringUtil.reverseStr("Hello World!"));
 
     }
+
 
 }
